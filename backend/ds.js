@@ -15,6 +15,11 @@ app.get('/user', (req, res) => {
             id:2,
             name:'fahim',
             age:18
+        },
+        {
+            id:3,
+            name:'fahim abid',
+            age:19
         }
     ]
     res.send(data)
